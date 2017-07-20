@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>form</title>
+<body background="image4.jpg" >
+<center>
+<h2 style="color:darkpink;"><u>Registration Form</u></h2>
+</center>
+<form action="fun.html">
+<fieldset>
+<legend>Personal Information</legend>
+Name:
+<select name="gender">
+<option value="Mr.">Mr.</option>
+<option value="Mrs.">Mrs.</option>
+</select>
+<input type="text" name="firstname" placeholder="First name" autofocus;>
+<input type="text" name="firstname" placeholder="Second name";><br><br>  
+Address: 
+<input type="text" name="address" value=" " size="52";><br><br>
+Gender:
+<input type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="female">female<br><br>
+D.O.B:
+<input type="date" name="birthday" >
+ Country:<select name ="country">
+<option value="india" selected>india</option>
+<option value="america" >america</option>
+<option value="china" >china</option>
+</select><br><br>
+Age:
+<input type="range" name="point" min="18" max="60">
+<input type="text" name="firstname" placeholder="age" size="5"><br>
+</fieldset><br>
+<fieldset>
+<legend>Additional Information</legend>
+Qualification:
+<input type="text" size="30"><br><br>
+Occupation:
+<input type="checkbox" name="occ" value="doctor">doctor
+<input type="checkbox" name="occ" value="engineer">engineer
+<input type="checkbox" name="occ" value="teacher">teacher
+<input type="checkbox" name="occ" value="CA">C.A
+<input type="checkbox" name="occ" value="other">others<br><br>
+Email:
+<input type="email" name="mail" size="25">
+ password: <input type="password" name="pas"><br><br>
+Phone:
+<input type="number" name="no" size="23"><br><br>
+</fieldset>
+Comment:
+<textarea name="comment" rows="5" cols="40" >
+</textarea><br><br>
+<input type="submit" value="submit">
+<input type="reset" ><br>
+<a href="query.html">click here 4 more info...</a>
+</form>
+</body>
+</head>
+</html>
